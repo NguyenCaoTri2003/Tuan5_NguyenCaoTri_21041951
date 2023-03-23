@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin-top: 5px;
+}
+
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    width: 1444px;
+    height: 60px;
+}
+
+.logo {
+    margin-top: 7px;
+    margin-left: 24px;
+}
+
+.mini_menu {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -27px;
+    margin-top: 15px;
+    width: 472px;
+    font-size: 16px;
+}
+
+.img_search {
+    width: 12px;
+    height: 12px;
+    position: relative;
+    top: 2px;
+    right: -12px;
+}
+
+.search {
+    width: 335px;
+    height: 33px;
+    background: #d8d8d8;
+    margin-top: 13px;
+    margin-left: 253px;
+    margin-right: -4px;
+    border-radius: 5px;
+}
+
+.search_input {
+    width: 300px;
+    height: 18px;
+    border: none;
+    background: #d8d8d8;
+    margin-left: 18px;
+    margin-top: 7px;
+}
+
+.icon {
+    width: 28px;
+    height: 28px;
+}
+
+.icon_big {
+    width: 36px;
+    height: 36px;
+    margin-top: 2px;
+}
+
+.icon_main {
+    width: 140px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-left: -39px;
+    margin-right: 19px;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    margin: 37px 135px 37px 135px;
+    width: 1185px;
+    height: 325px;
+    border-bottom: 1px solid gray;
+}
+
+.catagory p {
+    color: gray;
+}
+
+.catagory span {
+    color: black;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: bold;
+    margin-top: -4px;
+}
+
+.rating {
+    display: flex;
+    width: 1155px;
+    justify-content: space-between;
+    margin-top: -1px;
+}
+
+.center_right {
+    display: flex;
+    justify-content: space-between;
+    width: 232px;
+    align-items: center;
+}
+
+.four_rating {
+    width: 111px;
+    height: 19px;
+    margin-bottom: 18px;
+}
+
+.center_left {
+    display: flex;
+    justify-content: space-around;
+    width: 168px;
+    margin-right: -16px;
+}
+
+.share,
+.save {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+.img_share,
+.img_save {
+    width: 15px;
+    height: 15px;
+    margin-top: 6px;
+}
+
+.img_main {
+    display: grid;
+    gap: 20px 20px;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+}
+
+.img_1 {
+    grid-row-start: 2;
+    grid-row-end: 1;
+}
