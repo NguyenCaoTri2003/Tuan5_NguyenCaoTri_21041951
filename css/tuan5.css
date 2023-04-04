@@ -81,7 +81,7 @@
     flex-direction: column;
     margin: 37px 135px 37px 135px;
     width: 1185px;
-    height: 1125px;
+    height: 1045px;
     border-bottom: 1px solid gray;
 }
 
@@ -158,18 +158,20 @@
 } */
 .infor{
     display: flex;
+    justify-content: space-between;
 }
 .title_infor{
-    font-size: 25px;
+    font-size: 29px;
     font-weight: bold;
     margin-top: 26px;
-    margin-bottom: 14px;
+    margin-bottom: 18px;
 }
 .content_infor{
     width: 775px;
+    line-height: 21px;
 }
 .item_infor{
-    margin-top: 20px;
+    margin-top: 23px;
     display: flex;
 }
 .col_item{
@@ -179,4 +181,82 @@
 }
 .col_img{
     margin-right: 10px;
+}
+.choose_infor{
+    width: 341px;
+    height: 390px;
+    border: 1px solid rgb(239, 239, 239);
+    border-radius: 5px;
+    margin-top: 32px;
+    margin-right: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box{
+    width: 296px;
+    height: 35px;
+    border: 1px solid rgb(239, 239, 239);
+    background: rgb(239, 239, 239);
+    border-radius: 5px;
+    margin-left: 22px;
+    margin-top: 10px;
+}
+.dolar{
+    font-size: 34px;
+    font-weight: 900;
+    color: #00bdd6;
+    margin-left: 260px;
+    margin-top: -1px;
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+    width: 296px;
+    height: 35px;
+    margin-left: 22px;
+    margin-top: 21px;
+}
+.total_text{
+    color: rgb(172, 172, 172);
+}
+.total_money{
+    font-weight: 900;
+}
+.btn_buy, .btn_cart{
+    width: 295px;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 21px;
+}
+.btn_buy{
+    background: #00bdd6;
+    color: white;
+    font-size: 16px;
+    border: #00bdd6;
+}
+.btn_cart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #00bdd6;
+    font-size: 16px;
+    border: 1px solid #00bdd6;
+    background: white;
+}
+.add_to_card{
+    margin-left: 10px;
+}
+.img_cart{
+    width: 20px;
+    height: 20px;
+}
+.comment{
+    display: flex;
+    flex-direction: column;
+    margin: 37px 135px 37px 135px;
+    width: 1185px;
+    height: 300px;
+    border-bottom: 1px solid gray;
 }
